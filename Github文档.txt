@@ -1,0 +1,5 @@
+使用Github的Repository的SSH加密传输需要先设置秘钥：
+步骤：
+一、使用Git Bash命令行并输入 ssh-keygen -t rsa
+二、在根目录下（C://User/woop/.ssh）下打开*.pub文件
+三、把生成的公钥复制并放到Github的Setting中
