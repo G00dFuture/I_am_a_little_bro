@@ -3,3 +3,18 @@
 一、使用Git Bash命令行并输入 ssh-keygen -t rsa
 二、在根目录下（C://User/woop/.ssh）下打开*.pub文件
 三、把生成的公钥复制并放到Github的Setting中
+
+
+使用SSH Push文件到Github上
+方法一：使用Git Bash的命令行
+git remote add origin git@github.com:G00dFuture/*.git
+git push -u origin
+
+方法二：使用右键菜单中的 Git Synchronization
+配置Git-Remote：包括Remote、Push URL以及私钥地址
+
+使用https Push文件到Github上
+使用右键菜单中的 Git Synchronization
+配置Git-Remote：包括Remote和URL
+push的时候输入Github的账号密码即可
+
